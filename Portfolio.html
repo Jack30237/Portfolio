@@ -3,51 +3,46 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Portfolio</title>
-		<script>
-			
-		</script>
-		<style type="text/css">
-			.Re{
-				font-size:50px;
-				color:white;
-				background-color:#5151A2;
-				margin:0px;
-				padding:10px;
-				text-align:center;
-			}
-			.Pr{
-				font-size:30px;
-				color:black;
-				text-align:left;
-				border-bottom:1px solid black;
-			}
-			.con{
-				font-size:20px;
-				color:black;
-				text-align:left;
-				border-bottom:1px solid black;
-				padding:5px;
-				margin:5px;
-				width:500px;
-			}
-		</style>
+
+		<script src="myScript.js"></script>
+
+		<link href="style.css" rel="stylesheet"/>
+
 	</head>
 	<body>
-		<div class="Re">My Resumes</div>
-		<div class="Pr">About me</div>
-			<div class="con">Name: XIA JUN-LUN</div>
-			<img src=""/>
-			<div class="con">Gender: Male</div>
-			<div class="con">Birth: 91/6/15</div>
-			<div class="con">Contact me: 0952356771</div>
-		<div class="Pr">College</div>
-			<div class="con">School name: National Yunlin University of Science and Technology</div>
-			<div class="con">Educational qualifications: College</div>
-			<div class="con">Study status: Day Department</div>
-			<div class="con">Region: Yunlin</div>
-		<div class="Pr">Certificate</div>
-		<div class="Pr">Learnt</div>
-		<div class="Pr">Hope</div>
+		<div class="top">
+			<div class="me">NU Pasta</div>
+			<div class="contect">餐點搜尋 <input type="text"/>
+				<button>Sent</button>
+			</div>
+		</div>
+
+		<div class="head">
+		<div class="topbox"><u>About us</u></div>
+		<div class="topbox"><u>News</u></div>
+		<div class="topbox"><u>Menu</u></div>
+		<div class="topbox"><u>Video</u></div>
+		<div class="topbox"><u>Online shop</u></div>
+		</div>
+
+		<div class="inleftbox">
+			<div class="leftrightbox">
+				<div class="inleft">最新消息 <span style="color: #FFBB00;">News</span></div>
+				<ul>
+					<li><a class="inleftul" href="https://www.nu-pasta.com.tw/index.php?module=news&mn=1&f=content&id=41053">【新店試賣】NU PASTA高雄復興店 08/09 歡慶試賣</a></li>
+					<li><a class="inleftul" href="https://www.nu-pasta.com.tw/index.php?module=news&mn=1&f=content&id=41034">【全台活動】8/01-8/30 NU PASTA 父親節套餐霸氣登場</a></li>
+					<li><a class="inleftul" href="https://www.nu-pasta.com.tw/index.php?module=news&mn=1&f=content&id=40943">【已完售】NU PASTA X 吳寶春麥方店 X 天利食堂 ✨ 2024溫馨聯合獻禮✨</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div>
+			<img src="nupasta.jpg" style="float: left;" alt="圖片失效">
+		</div>
+
+		<p id="change">希望職類:前端工程師、後端工程師、Android工程師、iOS工程師</p>
+
+		<button type="button" onclick="myFunction()">按鈕</button>
 		
 	</body>
 </html>
