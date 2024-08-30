@@ -57,5 +57,8 @@ li::marker{
 }
 
 .midbox{
-
+  width: 900px;
+  position: relative;
+  top: 20px;
+  left: 450px;
 }
